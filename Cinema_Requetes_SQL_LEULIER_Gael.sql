@@ -52,6 +52,7 @@ CREATE TABLE paiement_en_ligne(
     FOREIGN KEY (enligne) REFERENCES tarifs(id_tarif)
 ); 
 
+
 CREATE TABLE film(
     id_film CHAR(36) NOT NULL PRIMARY KEY,
     nom_film VARCHAR(50) NOT NULL,
